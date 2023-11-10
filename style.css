@@ -1,12 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 #container{
     display: flex;
-    
-    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border-style: solid;
+    border-color: black;
     
 }
 .square {
     border-style: solid;
     border-color: black;
-    padding: 8px;
+    padding: 12px;
 }
- 
+button {
+    margin: 24px;
+    size: 32px;
+    font-weight: 400;
+    padding: 12px;
+    border: solid black;
+}
+.changeGrid{
+    margin-bottom: 2px;
+}
